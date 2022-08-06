@@ -40,6 +40,6 @@ third_elem.send_keys(joke)
 click_elem = driver.find_element(By.TAG_NAME, "button")
 click_elem.click()
 
-time.sleep(10)
+time.sleep(3)
 #close my connection
 driver.close()
